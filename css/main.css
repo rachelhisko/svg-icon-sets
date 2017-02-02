@@ -1,7 +1,28 @@
 html {
   font-family: Overpass, sans-serif;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  color: #fff;
 }
 
-h1 {
-  text-align: center;
+.border-box {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.btn {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn:hover {
+  border-color: #fff;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .border-box {
+    border-right: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 0;
+  }
+
 }
