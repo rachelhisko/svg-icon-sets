@@ -1,3 +1,7 @@
 html {
   font-family: Overpass, sans-serif;
 }
+
+h1 {
+  text-align: center;
+}
